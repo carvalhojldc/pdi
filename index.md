@@ -1,4 +1,5 @@
 # Página principal
+## [Unidade 1](unidade1.md) - [Unidade 2](#) - [Unidade 3](#)
 
 Esta página tem o objetivo reunir exercícios desenvolvidos durante a disciplina de Processamento Digital de Imagens, DCA, UFRN, BR.
 
@@ -6,9 +7,7 @@ As tarefas, aqui devenvolvidas, fizeram uso da biblioteca [OpenCV](http://opencv
 
 Referência teórica: Processamento digital de imagens, 3ª ed. Gonzalez, Rafael C.
 
-## [Unidade 1](unidade1.md)
-## [Unidade 2](#)
-## [Unidade 3](#)
+
 
 You can use the [editor on GitHub](https://github.com/carvalhojldc/pdi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
