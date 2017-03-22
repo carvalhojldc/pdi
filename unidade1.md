@@ -3,7 +3,9 @@
 
 ### Exercício 1
 Negativar a região de uma imagem
-![useful image](image/ex3.2.1t.png)  ![useful image](image/ex3.2.1.png)
+
+![useful image](image/ex3.2.1t.png)
+![useful image](image/ex3.2.1.png)
 
 ```c++
 #include <iostream>
