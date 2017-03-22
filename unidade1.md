@@ -1,4 +1,4 @@
-## [Página principal](index.md) - [Unidade 1] - [Unidade 2](#) - [Unidade 3](#)
+## [Home](index.md) - [Unidade 1] - [Unidade 2](#) - [Unidade 3](#)
 
 ### Exercício 1
 Negativar a região de uma imagem
