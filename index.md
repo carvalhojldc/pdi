@@ -1,5 +1,3 @@
-# Página principal
-
 **Esta página tem o objetivo reunir exercícios desenvolvidos durante a disciplina de Processamento Digital de Imagens, DCA, UFRN, BR.**
 
 As tarefas, aqui devenvolvidas, fizeram uso da biblioteca [OpenCV](http://opencv.org/).
