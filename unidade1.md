@@ -1,8 +1,11 @@
 # [Página principal](index.md)
-## [Unidade 1](unidade1.md) - [Unidade 2](#) - [Unidade 3](#)
+## [Unidade 1] - [Unidade 2](#) - [Unidade 3](#)
 
 ### Exercício 1
 Negativar a região de uma imagem
+
+![useful image](ex3.2.1.png)
+
 ```c++
 #include <iostream>
 #include <opencv2/opencv.hpp>
