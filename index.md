@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Página com material da disciplina de Processamento Digital de Imagens, DCA, UFRN, BR
 
 You can use the [editor on GitHub](https://github.com/carvalhojldc/pdi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
