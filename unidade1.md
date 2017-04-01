@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
 	return 0;
 }
 ```
-[Source code](code/ex3.2.1.cpp)
+[Source code](code/uni1/ex3.2.1.cpp)
 
 ### 3.2 B
 Trocar os quadrantes em diagonal de uma imagem
@@ -61,7 +61,7 @@ int main(int argc, char** argv) {
 	return 0;
 }
 ```
-[Source code](code/ex3.2.2.cpp)
+[Source code](code/uni1/ex3.2.2.cpp)
 
 
 ### 4.2
@@ -101,7 +101,7 @@ int main(int argc, char** argv) {
 	}
 	//-----------------------------------------//
 ```
-[Source code](code/ex4.2.cpp)
+[Source code](code/uni1/ex4.2.cpp)
 
 ### 5.2 A
 
@@ -120,7 +120,7 @@ int main(int argc, char** argv) {
         if(waitKey(30) >= 0) break;       
     }
 ```
-[Source code](code/ex5.2.1.cpp)
+[Source code](code/uni1/ex5.2.1.cpp)
 
 ### 5.2 B
 
@@ -150,4 +150,4 @@ int main(int argc, char** argv) {
         if(waitKey(30) >= 0) break;
     }
 ```
-[Source code](code/ex5.2.2.cpp)
+[Source code](code/uni1/ex5.2.2.cpp)
