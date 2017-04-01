@@ -38,7 +38,9 @@ int main(int argc, char** argv) {
 
 ### 3.2 B
 Esta tarefa trata-se de trocar as regiões de uma imagem.
+
 ![useful image](image/uni1/ex3.2.2.png)
+
 A imagem de entrada é dividida em outras quatro imagens, posteriormente elas são organizadas para formar uma nova composição.
 ```c++
 #include <iostream>
@@ -70,6 +72,7 @@ int main(int argc, char** argv) {
 
 ![useful image](image/uni1/ex4.2.a.jpeg)
 ![useful image](image/uni1/ex4.2.b.jpeg)
+
 ```c++
 	//-----Eliminar objetos nas bordas-----//
 	for (int i = 0; i < width; i++)
