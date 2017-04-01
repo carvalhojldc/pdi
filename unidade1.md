@@ -6,7 +6,7 @@ Para compilar os códigos em seu computador, utilize este [Makefile](code/Makefi
 da seguinte forma: make arquivo_codigo
 
 ### 3.2 A
-O objetivo desta tarefa é negativar uma região da imagem. Será solicitado o ponto 1 e 2, com isso, a região compreendida irá receber o efeito de negativo, da seguinte forma: PixelValue = 255 é PixelValue.
+O objetivo desta tarefa é negativar uma região da imagem. Será solicitado o ponto 1 e 2, com isso, a região compreendida irá receber o efeito de negativo, da seguinte forma: PixelValue = 255 - PixelValue.
 
 ![useful image](image/uni1/ex3.2.1t.png) ![useful image](image/uni1/ex3.2.1.png)
 
