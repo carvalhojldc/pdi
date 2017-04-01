@@ -1,8 +1,0 @@
-./ex3.2.1 biel.png
-Para negativar a região, entre com P1 e P2
-Sua imagem tem as seguintes dimenções:
-height = 256 width = 256
-Entre com o x de P1: 50
-Entre com o y de P1: 50
-Entre com o x de P2: 200
-Entre com o y de P2: 200

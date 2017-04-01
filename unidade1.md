@@ -6,9 +6,9 @@ Para compilar os códigos em seu computador, utilize este [Makefile](code/Makefi
 da seguinte forma: make arquivo_codigo
 
 ### 3.2 A
-Negativar a região de uma imagem
+O objetivo desta tarefa é negativar uma região da imagem. Será solicitado o ponto 1 e 2, com isso, a região compreendida irá receber o efeito de negativo, da seguinte forma: PixelValue = 255 é PixelValue.
 
-![useful image](image/ex3.2.1t.png) ![useful image](image/ex3.2.1.png)
+![useful image](image/uni1/ex3.2.1t.png) ![useful image](image/uni1/ex3.2.1.png)
 
 ```c++
 #include <iostream>
@@ -37,7 +37,9 @@ int main(int argc, char** argv) {
 [Source code](code/uni1/ex3.2.1.cpp)
 
 ### 3.2 B
-Trocar os quadrantes em diagonal de uma imagem
+Esta tarefa trata-se de trocar as regiões de uma imagem.
+![useful image](image/uni1/ex3.2.2.png)
+A imagem de entrada é dividida em outras quatro imagens, posteriormente elas são organizadas para formar uma nova composição.
 ```c++
 #include <iostream>
 #include <opencv2/opencv.hpp>
@@ -66,6 +68,8 @@ int main(int argc, char** argv) {
 
 ### 4.2
 
+![useful image](image/uni1/ex4.2.a.jpeg)
+![useful image](image/uni1/ex4.2.b.jpeg)
 ```c++
 	//-----Eliminar objetos nas bordas-----//
 	for (int i = 0; i < width; i++)
@@ -104,6 +108,8 @@ int main(int argc, char** argv) {
 [Source code](code/uni1/ex4.2.cpp)
 
 ### 5.2 A
+
+![useful image](image/uni1/ex5.2.jpeg)
 
 ```c++
     while(true)
