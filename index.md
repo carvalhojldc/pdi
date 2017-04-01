@@ -8,4 +8,8 @@ Referêncial teórico: Processamento digital de imagens, 3ª ed. Gonzalez, Rafae
 
 [Página da disciplina](http://agostinhobritojr.github.io/cursos/pdi/)
 
+Tarefas desenvolvidas por:
+JOÃO LEITE DE CARVALHO, carvalhojldc@dca.ufrn.br 
+JOÃO BATISTA FERNANDES, jb.f@live.com 
+
 ## [Home] - [Unidade 1](unidade1.md) - [Unidade 2](#) - [Unidade 3](#)
