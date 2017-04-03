@@ -70,6 +70,16 @@ int main(int argc, char** argv) {
 
 ### 4.2
 
+Essa atividade tem como objetivo, dada uma imagem com vários objetos e entre eles alguns com buracos, encontrar cada objetos e saber quantos são e quantos tem buracos. Porém não podemos contar os objetos que estão recortadas pelas margens, pois não é possível descrever se tal objeto tem ou não buraco na sua real forma.
+
+![useful image](image/uni1/ex4.2.jpeg)
+
+Para solução de tal problema primeiramente tratamos de eliminar os objetos das bordas, já que eles não serão contados, simplesmente pintando todas as linhas de margens com a cor de objeto para em seguida pintar a partir do ponto [0,0] todos que houverem a mesma cor desse ponto. 
+
+Depois temos que obter uma forma de manipular a imagem para podermos encontrar os buracos. Para tal nós usamos o ponto [0,0], no qual já sabemos que pertence ao fundo, e pintamos todo o fundo de uma cor diferente, pois assim ao encontrar um ponto com a antiga cor de fundo saberemos que ali é um buraco.
+
+Em seguida percorremos toda a imagem e em cada vez que for encontrado um ponto que identifique objeto ou um buraco pintamos toda área com uma cor diferente, sendo uma faixa de cores para cada um, assim contado cada um.
+
 ![useful image](image/uni1/ex4.2.a.jpeg)
 ![useful image](image/uni1/ex4.2.b.jpeg)
 
@@ -112,6 +122,10 @@ int main(int argc, char** argv) {
 
 ### 5.2 A
 
+Esse exercício tem como finalidade capturar múltiplas imagens fazer tratamentos de equalização de histogramas nelas e em seguida exebi-las.
+
+Como solução utilizamos a função equalizeHist, que tem uma array de entrada e uma array de saída filtrada.
+
 ![useful image](image/uni1/ex5.2.jpeg)
 
 ```c++
@@ -132,6 +146,10 @@ int main(int argc, char** argv) {
 [Source code](code/uni1/ex5.2.1.cpp)
 
 ### 5.2 B
+
+Essa questão propõe implementar um detector de movimento, calculando o histograma continuamente e para comparação de cada um com o calculado logo antes, definir um limiar que nos dirá se a diferença nas imagens e definida por uma detecção de movimento.
+
+![useful image](image/uni1/ex5.2b.jpeg)
 
 ```c++
     cap >> image;
@@ -160,3 +178,14 @@ int main(int argc, char** argv) {
     }
 ```
 [Source code](code/uni1/ex5.2.2.cpp)
+
+### 6.2
+
+![useful image](image/uni1/ex6.2.jpeg)
+
+```c++
+
+
+```
+[Source code](code/uni1/ex6.2.cpp)
+
