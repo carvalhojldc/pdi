@@ -8,7 +8,7 @@ da seguinte forma: make arquivo_codigo
 ### 8.2 
 O objetivo desta tarefa é implementar um filtro homomórfico para melhorar imagens com iluminação irregular.
 
-![useful image](image/uni2/q2a.png) ![useful image](image/uni2/q2b.png)
+![useful image](image/uni2/q1.png)
 
 ```c++
 void on_filter(int, void*)
