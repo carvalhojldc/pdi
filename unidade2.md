@@ -46,3 +46,15 @@ void on_filter(int, void*)
 [Source code](code/uni2/q1.cpp)
 
 ### 11.1
+
+Imagem original:
+![useful image](image/uni2/q2a.jpeg)
+
+Imagem resultante:
+![useful image](image/uni2/q2b.jpeg)
+
+```c++
+
+}
+```
+[Source code](code/uni2/q2.cpp)
