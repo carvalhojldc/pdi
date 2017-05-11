@@ -47,23 +47,27 @@ void on_filter(int, void*)
 
 ### 11.1
 
-Primeiramente para esse algoritmo nos usamos a duas imagens como teste, uma com traços mais simples e outros com mais detalhes e complexidade em suas cores, mostradas respectivamente:
+Para esse algoritmo utilizou-se duas imagens como teste, uma com traços mais simples e outra com mais detalhes e complexidade em suas cores, mostradas respectivamente:
 
 ![useful image](image/uni2/q2a1.jpeg) ![useful image](image/uni2/q2b1.jpeg)
 
-Então tendo o programa carregado a imagem, nós primeiramente criamos uma especie de fundo para imagem. Isso é feito de forma que simplesmente percorremos toda a matriz com certos “pulos” ( step ) e criamos círculos de tamanho grande o suficiente para que possa preencher todo o fundo. Então quanto maior for o step maior será o raio do circulo nessa etapa e cada um terá a cor do pixel de onde ele se encontra na interação.
+Então, tendo o programa carregado a imagem, primeiramente é criado uma espécie de fundo para imagem. Isso é feito de forma que, simplesmente é percorrida toda a matriz com certos “pulos” ( step ) e assim criando círculos de um tamanho grande o suficiente para que possa preencher todo o fundo. Quanto maior for o step, maior será o raio do círculo nessa etapa e cada um terá a cor do pixel de onde ele se encontra na interação.
 
-![useful image](image/uni2/q2a4.jpeg) 
+Primeira imagem:
+
 ![useful image](image/uni2/q2a2.jpeg)
 
-![useful image](image/uni2/q2b4.jpeg)
+Segunda imagem:
+
 ![useful image](image/uni2/q2b2.jpeg)
 
-Então nos calculamos vários filtros de Cannys para limiares diferentes, nesse caso usamos valores de 20 à 180 de valores múltiplos de 20. Para cada um desses valores criamos círculos onde foi detectado borda no filtro. Esses círculos serão criados com raios cada vez menos o para cada valor de limiar for crescendo. E cada uma dessa imagens formadas serão acrescentadas a imagem final.
+Com isso, é são calculados vários filtros de Cannys para limiares diferentes, nesse caso é utilizado valores de 20 à 180, de valores múltiplos de 20. Para cada um desses valores, são criados círculos onde for detectado borda no filtro.                         Esses círculos serão criados com raios de tamanhos inversamente proporcionais aos valores de limiares.. E cada uma das imagens formadas será adicionada na imagem final.
 
 ![useful image](image/uni2/q2a3.jpeg) ![useful image](image/uni2/q2b3.jpeg)
 
-Seguida vemos como o código que criam essas imagens foi implementado e o resultado.
+
+Código da implementação:
+
 
 ```c++
 for (top = 20; top < 200; top+=5)
