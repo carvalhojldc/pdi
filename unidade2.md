@@ -72,31 +72,30 @@ Código da implementação:
 ```c++
 for (top = 20; top < 200; top+=5)
 {
-raio =  (200 - top)/10;
+	raio =  (200 - top)/10;
 
-Canny(image, border, top, 3*top);
+	Canny(image, border, top, 3*top);
 
-random_shuffle(xrange.begin(), xrange.end());  
-for(auto i : xrange)
-{
-	random_shuffle(yrange.begin(), yrange.end());
-	for(auto j : yrange)
-	{
-	if (border.at<uchar>(i,j) == 0) continue;
-
-	x = i+rand()%(2*jitter)-jitter+1;
-	y = j+rand()%(2*jitter)-jitter+1;
+	random_shuffle(xrange.begin(), xrange.end());  
 	
-	pix[0] = (int) image.at<Vec3b>(x,y)[2];
-	pix[1] = (int) image.at<Vec3b>(x,y)[1];
-	pix[2] = (int) image.at<Vec3b>(x,y)[0];
+	for(auto i : xrange)
+	{
+		random_shuffle(yrange.begin(), yrange.end());
+		
+		for(auto j : yrange)
+		{
+			if (border.at<uchar>(i,j) == 0) continue;
 
-	circle(points, cv::Point(y,x), raio, CV_RGB(pix[0],pix[1],pix[2]), -1, CV_AA);
+			x = i+rand()%(2*jitter)-jitter+1;
+			y = j+rand()%(2*jitter)-jitter+1;
+			
+			pix[0] = (int) image.at<Vec3b>(x,y)[2];
+			pix[1] = (int) image.at<Vec3b>(x,y)[1];
+			pix[2] = (int) image.at<Vec3b>(x,y)[0];
+
+			circle(points, cv::Point(y,x), raio, CV_RGB(pix[0],pix[1],pix[2]), -1, CV_AA);
+		}
 	}
-}
-}
 }
 ```
 [Source code](code/uni2/q2.cpp)
-
-
