@@ -41,6 +41,6 @@ void on_filter(int, void*)
   merge(comps, 2, filter);
 }
 ```
-[Source code](code/uni2/q2.cpp)
+[Source code](code/uni2/q1.cpp)
 
 ### 11.1
