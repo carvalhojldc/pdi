@@ -53,7 +53,11 @@ Primeiramente para esse algoritmo nos usamos a duas imagens como teste, uma com 
 
 Então tendo o programa carregado a imagem, nós primeiramente criamos uma especie de fundo para imagem. Isso é feito de forma que simplesmente percorremos toda a matriz com certos “pulos” ( step ) e criamos círculos de tamanho grande o suficiente para que possa preencher todo o fundo. Então quanto maior for o step maior será o raio do circulo nessa etapa e cada um terá a cor do pixel de onde ele se encontra na interação.
 
-![useful image](image/uni2/q2a2.jpeg) ![useful image](image/uni2/q2b2.jpeg)
+![useful image](image/uni2/q2a4.jpeg) 
+![useful image](image/uni2/q2a2.jpeg)
+
+![useful image](image/uni2/q2b4.jpeg)
+![useful image](image/uni2/q2b2.jpeg)
 
 Então nos calculamos vários filtros de Cannys para limiares diferentes, nesse caso usamos valores de 20 à 180 de valores múltiplos de 20. Para cada um desses valores criamos círculos onde foi detectado borda no filtro. Esses círculos serão criados com raios cada vez menos o para cada valor de limiar for crescendo. E cada uma dessa imagens formadas serão acrescentadas a imagem final.
 
@@ -91,4 +95,4 @@ for(auto i : xrange)
 ```
 [Source code](code/uni2/q2.cpp)
 
-![useful image](image/uni2/q2a4.jpeg) ![useful image](image/uni2/q2b4.jpeg)
+
