@@ -61,7 +61,7 @@ Segunda imagem:
 
 ![useful image](image/uni2/q2b2.jpeg)
 
-Com isso, é são calculados vários filtros de Cannys para limiares diferentes, nesse caso é utilizado valores de 20 à 180, de valores múltiplos de 20. Para cada um desses valores, são criados círculos onde for detectado borda no filtro.                         Esses círculos serão criados com raios de tamanhos inversamente proporcionais aos valores de limiares.. E cada uma das imagens formadas será adicionada na imagem final.
+São calculados vários filtros de Cannys para limiares diferentes, nesse caso é utilizado valores de 20 à 180, de valores múltiplos de 20. Para cada um desses valores, são criados círculos onde for detectado borda no filtro.                         Esses círculos serão criados com raios de tamanho inversamente proporcionais aos valores de limiares. E cada uma das imagens formadas será adicionada na imagem final.
 
 ![useful image](image/uni2/q2a3.jpeg) ![useful image](image/uni2/q2b3.jpeg)
 
